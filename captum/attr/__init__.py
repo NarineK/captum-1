@@ -25,7 +25,7 @@ from ._core.neuron.neuron_guided_backprop_deconvnet import (
     NeuronDeconvolution,
     NeuronGuidedBackprop,
 )  # noqa
-
+from ._core.layer_integrated_gradients import LayerIntegratedGradients # noqa
 from ._models.base import (
     InterpretableEmbeddingBase,
     TokenReferenceBase,
@@ -58,6 +58,7 @@ __all__ = [
     "LayerGradCam",
     "LayerDeepLift",
     "LayerDeepLiftShap",
+    "LayerIntegratedGradients",
     "NeuronConductance",
     "NeuronGradient",
     "NeuronIntegratedGradients",
